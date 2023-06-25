@@ -12,10 +12,25 @@
     background-color:rgb(211,211,211);
 }
 body {
-    background-image:url(pexels-todd-trapani-2276928.jpg);
+    background-image:url(image/pexels-todd-trapani-2276928.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:right;
 }
-
+#navbarSupportedContent{
+    padding-right: 34em;
+}
+video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    z-index: -1;
+}
+#About{
+    width: 100%;
+}
   
