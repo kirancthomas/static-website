@@ -12,10 +12,12 @@
     background-color:rgb(211,211,211);
 }
 body {
-    background-image:url(image/pexels-todd-trapani-2276928.jpg);
+    background-image:url(image/Amoled-Phone-Wallpaper-001-1080x2340.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:right;
+    background-position:center;
+    
+    
 }
 #navbarSupportedContent{
     padding-right: 34em;
@@ -25,12 +27,25 @@ video{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     display: block;
     object-fit: cover;
     z-index: -1;
 }
 #About{
     width: 100%;
+}
+#kiran{
+    font-family:Josefin 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130px;
+}
+#service-section{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+header{
+    background-color: black;
 }
   
