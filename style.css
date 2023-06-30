@@ -5,22 +5,18 @@
 }
 #icon{
     font-size: 5em;
-    color: rgb(94, 94, 90);
+    color: rgb(151, 151, 96);
 }
 .all{
     
     background-color:rgb(211,211,211);
 }
 body {
-    background-image:url(image/Amoled-Phone-Wallpaper-001-1080x2340.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    
+    background-color: #fff;
     
 }
-#navbarSupportedContent{
-    padding-right: 34em;
+.Chat{
+    text-align: left;
 }
 video{
     position:absolute;
@@ -32,13 +28,8 @@ video{
     object-fit: cover;
     z-index: -1;
 }
-#About{
-    width: 100%;
-}
-#kiran{
-    font-family:Josefin 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 130px;
-}
+
+
 #service-section{
     background-image: url();
     background-repeat: no-repeat;
@@ -46,6 +37,9 @@ video{
     background-position:center;
 }
 header{
-    background-color: black;
+    background-color: rgba(6, 9, 24, 0.5)
+}
+#kiran{
+    font-family: monospace;
 }
   
