@@ -11,7 +11,7 @@
 <body>
 
      
-    <header class="bg-black" style="position: fixed; width: 100%;z-index: 3;">
+    <header class="bg-black" style="position: fixed; width: 100%;z-index: 1;">
        
         <div class="row text-white">
             
@@ -25,8 +25,11 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link text-white" href="#home-section">About <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about-section">About</a>
+                          </li>
                         <li class="nav-item">
                           <a class="nav-link text-white" href="#service-section">Service</a>
                         </li>
@@ -50,7 +53,7 @@
     <section  id="home-section" style="padding-top: 10em;"> 
         
     
-        <div class="container">
+        <div class="container" style="padding-bottom: 10rem;">
             <div class="row align-items-center">
                 
 
@@ -75,11 +78,40 @@
 
 
             </div>
-        </div><br><br><br><br><br><br><br><br><br>
+        </div>
     </section>
+
+    <section id="about-section" style="padding-top: 7rem;">
+        <div class="container">
+            <h1 class="text-center text-dark">About</h1>
+            <div class="row col-12 "style="padding-top: 3em;">
+                <div class="col-12 col-md-6" id="aboutimage">
+                    <img  src="image/photo_2023-07-02_12-42-51.jpg" alt="">
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4 class="text-center">Full stack developer</h4>
+                    <p>I'm Kiran, a tech enthusiast with a passion for both front-end and back-end development. From crafting beautiful user interfaces to handling complex server-side logic, I love every aspect of the development process. My journey began as an Accountant, and over the months I became a full-stack developer. I learned the skill by myself through video-sharing platforms like YouTube and other social media platforms.</p>
+
+                </div>
+
+            </div>
+
+        
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
     <section id="service-section" style="padding-top: 7em;">
         <div class="container">
-            <h1 class="text-center text-white">Services</h1><br>
+            <h1 class="text-center text-dark">Services</h1><br>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card border-secondary mb-3 text-center" >
@@ -131,34 +163,28 @@
     <section id="ContactMe-section" style="padding-top: 7em;">
 
        <div class="container">
-        <h1 class="text-center text-white">Contact Me</h1>
+        <h1 class="text-center text-dark">Contact Me</h1>
             <div class="row">
                 <div class="col-12">
                     <form>
-                        <div class="row">
-                        <div class="form-group col-md-6">
-                          <label for="inputAddress" class="text-white">Name</label>
+                        
+                        <div class="form-group">
+                          <label for="inputAddress" class="text-dark">Name</label>
                           <input type="text" class="form-control" id="inputAddress" placeholder="Enter Name">
                         
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputAddress"class="text-white">Place</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Place">
-                          </div>
-                        </div>
+                        
+                        
 
 
                         <div class="form-group">
-                          <label for="inputAddress2"class="text-white">Email</label>
+                          <label for="inputAddress2"class="text-dark">Email</label>
                           <input type="email" class="form-control" id="inputAddress2" placeholder="Enter Email">
                         </div>
+                        
                         <div class="form-group">
-                            <label for="inputAddress2"class="text-white">Mobile Number</label>
-                            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputAddress"class="text-white">Message</label>
-                            <textarea class="form-control" cols="30" rows="10" placeholder="Type Your Message Here ... "></textarea>
+                            <label for="inputAddress"class="text-dark">Message</label>
+                            <textarea class="form-control" cols="15" rows="5" placeholder="Type Your Message Here ... "></textarea>
 
                         </div>
                         
